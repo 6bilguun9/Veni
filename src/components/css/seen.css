@@ -1,0 +1,13 @@
+.seenContainer {
+  background-color: #222831;
+  height: 70%;
+  width: 20%;
+  border-radius: 0 10px 10px 0;
+  display: flex;
+  justify-content: center;
+  color: #eeee;
+  overflow: auto;
+  scrollbar-color: #00adb5 #eeeeee;
+  scrollbar-width: thin;
+  font-size: 10px;
+}

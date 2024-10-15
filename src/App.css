@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+.App {
+  display: flex;
+  background-color: #343131;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.discoverContainer {
+  background-color: #222831;
+  height: 90%;
+  width: 50%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #eeeeee;
+  font-size: 10px;
+  gap: 10px;
+}
+.header {
+  margin-top: 30px;
+}
+button {
+  min-width: 70px;
+  min-height: 20px;
+  display: flex;
+  display: flex;
+  padding: 3px;
+  justify-content: center;
+  align-items: center;
+  background-color: #eeeeee;
+  color: #00adb5;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.color {
+  background-color: #00adb5;
+  color: #eeeeee;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  align-items: center;
+  gap: 10px;
+  font-size: 4vh;
+  color: #eeeeee;
+}
+.image {
+  max-height: 200px;
+  max-width: 90%;
+  border-radius: 30px;
+}
+.banList {
+  display: flex;
+  gap: 10px;
+}
+.banContainer {
+  height: 70%;
+  width: 20%;
+  border-radius: 10px 0 0 10px;
+  background-color: #222831;
+  color: #eeee;
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  flex-direction: column;
+  overflow: auto;
+  scrollbar-color: #00adb5 #eeeeee;
+  font-size: 10px;
+}
